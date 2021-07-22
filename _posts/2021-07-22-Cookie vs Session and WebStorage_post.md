@@ -1,6 +1,6 @@
 ---
 title: "Cookie와 Session의 차이 (+WebStorage)"
-date: 2021-07-07 10:36:12 -0400
+date: 2021-07-22 17:27:22 -0400
 categories: study
 ---
 
