@@ -16,7 +16,7 @@ MarkUp 과 MarkDown
 - .md 파일이 이러한 MarkDown 언어
 - 페북 태그기능도 MarkDown 문법중 하나!
 
-[HEROPY Tech - MarkDown 사용법 총정리] (https://heropy.blog/2017/09/30/markdown/)
+[HEROPY Tech - MarkDown 사용법 총정리](https://heropy.blog/2017/09/30/markdown/ "링크 설명도 넣을수 있대요")
 
 ----
 
