@@ -11,8 +11,27 @@ categories: blog
 
 ## oauth2.0 인증방식
 1. Authorization Code Grant
-![]
+![Authorization Code Grant](/assets/img/AutholizationCodeGrant.png)
+- 권한부여코드승인 타입
+- 클라이언트가 다른사용자 대신 특정 리소스에 접근을 요청할 때 사용
+- 리소스의 접근을 위한 사용자명, 비밀번호를 권한서버에 요청해서 받은 권한코드를 함께 활용해서 리소스에 대한 엑세스 토큰을 받아 인증에 사용
 
 2. Implicit Grant
+![Implicit Grant](/assets/img/Implicit Grant.png)
+- 암시적승인 타입
+- 권한부여코드승인 타입과 다르게 권한부여코드 없이, 사용자 자격 증명을 교환하는 방식
+- Access Token이 유효한지 검증함(검증 응답값을 받음)
+
 3. Resource Owner Password Credentials Grant
+![Resource Owner Password Credentials Grant](/assets/img/Resource Owner Password Credentials Grant.png)
+- 리소스 소유자 암호 자격 증명 타입
+- Password Grant
+- id, password를 이용해 자격증명을 클라이언트에게 요청
+
 4. Client Credentials Grant
+![Client Credentials Grant](/assets/img/Client Credentials Grant.png)
+- 클라이언트 자격 증명 타입
+- 클라이언트가 컨텍스트 외부에서 액세스 토큰을 얻어 특정 리소스에 접근을 요청할 때 사용
+- 이 때 별다른 인증절차가 없기때문에 Refrash Token 까지 넘기지 않는걸 추천
+- Access Token 으로 서버와 통신
+
